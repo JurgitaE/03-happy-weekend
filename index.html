@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./favicon.ico" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link
       rel="apple-touch-icon"
       sizes="144x144"
@@ -30,10 +31,46 @@
     />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+    <style>
+      header {
+        display: inline-block;
+        width: 800px;
+        /*  margin: 0 auto; dirba tik su blokiniais el */
+        margin-top: 40px;
+        margin-left: calc((100% - 800px) / 2);
+      }
+      header > img {
+        width: 100px;
+        float: left;
+      }
+      nav {
+        float: right;
+      }
+      main {
+        display: inline-block;
+        width: 800px;
+        margin-top: 100px;
+        margin-left: calc((100% - 800px) / 2);
+      }
+      div {
+        width: 35%;
+        float: left;
+      }
+      main > img {
+        width: 65%;
+        float: right;
+      }
+    </style>
     <title>Happy Weekend</title>
   </head>
   <body>
-    content
-    <img src="./img/logo.pnglogo" alt="" />
+    <header>
+      <img src="./img/logo.png" alt="logo" />
+      <nav>LINKS</nav>
+    </header>
+    <main>
+      <div>LEFT CONTENT</div>
+      <img src="./img/yoga.png" alt="logo" />
+    </main>
   </body>
 </html>
