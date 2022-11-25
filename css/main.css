@@ -101,7 +101,7 @@ body {
 .socials > .icon {
     width: 2em;
     height: 2em;
-    float: 4px;
+    float: left;
     margin-right: 0.5em;
     margin-bottom: 0.5em;
     text-decoration: none;
